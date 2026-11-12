@@ -1,0 +1,64 @@
+% SMALL.TEX -- Released 5 July 1985
+% USE THIS FILE AS A MODEL FOR MAKING YOUR OWN LaTeX INPUT FILE.
+% EVERYTHING TO THE RIGHT OF A  %  IS A REMARK TO YOU AND IS IGNORED
+% BY LaTeX.
+%
+% WARNING!  DO NOT TYPE ANY OF THE FOLLOWING 10 CHARACTERS EXCEPT AS
+% DIRECTED:        &   $   #   %   _   {   }   ^   ~   \
+
+\documentclass[11pt]{article}  % YOUR INPUT FILE MUST CONTAIN THESE
+\usepackage{amsthm}
+\usepackage{natbib}
+
+\newtheorem{theorem}{Theorem}[section]
+\begin{document}  
+\title{First example}
+\author{Leslie Lamport}
+\maketitle
+                % TWO LINES PLUS THE \end COMMAND AT
+ % THE END
+\section{xyz}
+\section{Introduction}\label{intro}          % THIS COMMAND MAKES A SECTION TITLE.
+
+Words are separated by one or    more      spaces.  Paragraphs are
+    separated by one or more blank lines.  The output is not affected
+by adding extra spaces or extra blank lines to the input file.
+
+{\large $\beta$ = $a^2 + b\times c +2$}
+
+\subsection{Background}
+In Section \ref{intro} Double quotes are typed like this: ``quoted text''.
+Single quotes are typed like this: `single-quoted text'.
+
+\textbf{Long dashes} are typed as three dash characters---like this.
+
+Italic text is typed like this: \textit{This is italic text}.
+Bold   text is typed like this: \textbf{this is  bold  text}.
+
+\begin{enumerate}
+    \item first 
+\end{enumerate}
+
+\begin{theorem}\label{T1}
+     There are infinitely many prime numbers.
+\end{theorem}
+   
+
+In Theorem \ref{T1}   
+
+
+
+
+
+\subsection{A Warning or Two}        % THIS MAKES A SUBSECTION TITLE.
+
+If you get too much space after a mid-sentence period---abbreviations
+like etc.\ are the common culprits)---then type a backslash followed by
+a space after the period, as in this sentence.
+
+\noindent Remember, don't type the 10 special characters (such as dollar sign and
+backslash) except as directed!  The following seven are printed by
+typing a backslash in front of them:  \$  \&  \#  \%  \_  \{  and  \}.
+The manual tells how to make other symbols.
+
+\end{document}                    % THE INPUT FILE ENDS LIKE THIS

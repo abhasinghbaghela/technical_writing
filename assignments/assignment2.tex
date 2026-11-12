@@ -1,0 +1,85 @@
+\documentclass[18]{article}
+\usepackage{amsmath}
+\usepackage{amsthm}
+
+\begin{document}
+\begin{center}
+\Large\textbf{Assignment 2-Math}
+\end{center}
+\begin{center}
+\large{TW Lab 2025}
+\end{center}
+\vspace{1cm}e
+\begin{center}
+Write \LaTeX code to output the following sections as it is .Use \LaTeX reference wherever required. You may also explore the Math menu provided as Menu bar
+\end{center}
+\section{Basics}
+This famous Einstein's mass-energy equation,$E=mc^2$ should be rendered inline.However the following equation of motion should be rendered in a block:
+\[
+v = u + at
+\]
+
+\section{Fraction \& Roots}
+\[
+x_i={\frac{\sqrt{a^2+b_i^2}}{c_i}}
+\]
+
+\section{Symbols \& Math-fonts}
+\[
+G_{\mu\nu}+\Lambda g_{\mu\nu}=\kappa T_{\mu\nu},   \forall x \in \mathbf{R} \ \exists \varepsilon > 0 \Rightarrow |x| < \varepsilon
+\]
+\[
+\mathcal{F}(\theta)=\sum_{k=0}^{n}{n \choose k} \theta^k (1-\theta)^{n-k}
+\]
+
+\section{Calculus}
+\[
+\frac{du}{dx}+\frac{\partial u}{\partial t}=\alpha \frac{\partial^2 u}{\partial^2 x}
+\]
+\[
+\int_{0}^{1}(3x^2 + 2x+1)dx
+\]
+\vspace{4cm}
+\section{Multi-line equations}
+\subsection{Centering \& alignment}
+\begin{equation}
+x=5
+\end{equation}
+\begin{equation}
+x+y=3
+\end{equation}
+\vspace{1cm}
+\begin{align}
+x=5
+\end{align}
+\begin{align}
+x+y=3
+\end{align}
+\subsection{Multiline equation}
+\begin{multline*}
+(x+y+z)^3=(x+y+z).(x+y+z).(x+y+z)=x^3+y^3+z^3+ \\
+3x^2y+3x^2y+3y^2x+3y^2z+3z^2x+3z^2y+6xyz
+\end{multline*}
+\section{Matrices}
+\[
+\begin{matrix}
+1 & 2 \\
+3 & 4
+\end{matrix}
+\quad
+\begin{bmatrix}
+1 & 2 \\
+3 & 4
+\end{bmatrix}
+\quad
+\begin{vmatrix}
+1 & 2 \\
+3 & 4
+\end{vmatrix}
+\quad
+\begin{pmatrix}
+1 & 2 \\
+3 & 4
+\end{pmatrix}
+\]
+\end{document}

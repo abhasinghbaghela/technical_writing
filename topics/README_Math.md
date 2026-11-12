@@ -154,7 +154,6 @@ These commands are used to place explanatory labels above or below mathematical 
 The `array` environment creates aligned rows and columns inside mathematical expressions.
 
 Example:
-
 ```latex
 \[
 \begin{array}{lcr}
@@ -164,14 +163,11 @@ a & b & c \\
 \end{array}
 \]
 ```
-
 Alignment options:
 - `l`: Left alignment.
 - `c`: Center alignment.
 - `r`: Right alignment.
-
 Arrays can also represent piecewise functions.
-
 ```latex
 \[
 f(x)=\left\{
@@ -183,54 +179,40 @@ x^2, & x>0
 \right.
 \]
 ```
-
 ## 9. Binomial Coefficients
 The `\binom{n}{k}` command creates a binomial coefficient.
-
 Example:
-
 ```latex
 \[
 \binom{n}{k} = \frac{n!}{k!(n-k)!}
 \]
 ```
-
 It is commonly used in combinatorics and probability.
-
 ## 10. Numbered and Long Equations
 The `equation` environment automatically numbers equations.
-
 ```latex
 \begin{equation}
 \int_0^1 x^2\,dx = \frac{1}{3}
 \end{equation}
 ```
-
 For long equations, use the `multline` environment.
-
 ```latex
 \begin{multline*}
 p(x)=3x^6+14x^5y+590x^4y^2\\
 -12x^2y^4-12xy^5+2y^6-a^3b^3
 \end{multline*}
 ```
-
 Use `align` to align multiple equations at a particular symbol.
-
 ```latex
 \begin{align*}
 2x-5y &= 8 \\
 3x+9y &= -12
 \end{align*}
 ```
-
 Use `gather` to group and center multiple equations.
-
 ## 11. Matrices in LaTeX
 The `amsmath` package provides several matrix environments.
-
 **Basic Matrix:**
-
 ```latex
 \[
 \begin{matrix}
@@ -239,18 +221,14 @@ The `amsmath` package provides several matrix environments.
 \end{matrix}
 \]
 ```
-
 Different matrix environments:
-
 - `matrix`: No surrounding delimiters.
 - `pmatrix`: Parentheses.
 - `bmatrix`: Square brackets.
 - `Bmatrix`: Curly braces.
 - `vmatrix`: Single vertical bars.
 - `Vmatrix`: Double vertical bars.
-
 Example:
-
 ```latex
 \[
 \begin{bmatrix}
@@ -259,20 +237,14 @@ c & d
 \end{bmatrix}
 \]
 ```
-
 For compact matrices inside text, use `smallmatrix`.
-
 Extra row spacing can be added using:
-
 ```latex
 \\[6pt]
 ```
-
 ## 12. Lists in LaTeX
 LaTeX provides three common list environments.
-
 **Itemize:** Creates unordered bullet lists.
-
 ```latex
 \begin{itemize}
 \item Apples
@@ -280,9 +252,7 @@ LaTeX provides three common list environments.
 \item Bananas
 \end{itemize}
 ```
-
 **Enumerate:** Creates numbered lists.
-
 ```latex
 \begin{enumerate}
 \item First step
@@ -290,9 +260,7 @@ LaTeX provides three common list environments.
 \item Third step
 \end{enumerate}
 ```
-
 **Description:** Creates labeled lists.
-
 ```latex
 \begin{description}
 \item[HTML] HyperText Markup Language
@@ -300,15 +268,3 @@ LaTeX provides three common list environments.
 \item[JS] JavaScript
 \end{description}
 ```
-
-## 13. Learning Outcomes
-After studying these topics, learners should be able to:
-
-- Write inline and display mathematical expressions.
-- Use mathematical fonts and symbols.
-- Create fractions, roots, sums, products, and integrals.
-- Format arrays and piecewise functions.
-- Write numbered and multiline equations.
-- Create matrices with different delimiters.
-- Use mathematical alignment environments.
-- Create itemized, numbered, and description lists.

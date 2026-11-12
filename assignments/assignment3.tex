@@ -1,0 +1,129 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{array}
+
+\begin{document}
+\begin{center}
+\Large\textbf{Assignment 3}
+\end{center}
+
+\section{Question 1}
+\[
+\overbrace{a+b+c}_{\text{First Group}}+
+\underbrace{x+y+z}_{\text{Second Group}}
+=
+\overbrace{\underbrace{a+b}_{\text{sum 1}}+c}^{\text{Total}}
+\]
+\vspace{1cm}
+\section{Question 2}
+\[
+A=
+\left[
+\begin{array}{c|ccc}
+& x_1 & x_2 & x_3 \\ \hline
+y_1 & a_{11} & a_{12} & a_{13} \\
+y_2 & a_{21} & a_{22} & a_{23} \\
+y_3 & a_{31} & a_{32} & a_{33}
+\end{array}
+\right]
+\]
+\vspace{1cm}
+\section{Question 3}
+\[
+f(x)=
+\begin{cases}
+x^2+2x+1, & x<0, \\
+\sqrt{x}+1, &0\leq x<4 ,\\
+\dfrac{x^2 -1}{x-1}, & x\geq4.
+\end{cases}
+\]
+\vspace{1cm}
+\section{Question 4}
+
+\[
+\begin{bmatrix}
+\overbrace{
+\begin{matrix}
+a_{11} & a_{12} & a_{13} \\
+a_{21} & a_{22} & a_{23} \\
+a_{31} & a_{32} & a_{33}
+\end{matrix}
+}^{\text{Column Group 1}}
+&
+\overbrace{
+\begin{matrix}
+a_{14} & a_{15} \\
+a_{24} & a_{25}\\
+a_{34} & a_{35}
+\end{matrix}
+}^{\text{Column Group 2}}
+\end{bmatrix}
+\]
+\vspace{10cm}
+\section{Question 5}
+\[
+F(x)=
+\underbrace{
+\overbrace{
+\sum_{i=1}^{n}
+\left(a_i x_i^2+b_i x_i+c_i\right)
+}^{\text{Quadratic Contribution}}
++
+\overbrace{
+\begin{bmatrix}
+x_1 & x_2 & \cdots & x_n
+\end{bmatrix}
+A
+\begin{bmatrix}
+x_1\\
+x_2\\
+\vdots\\
+x_n
+\end{bmatrix}
+}^{\text{Matrix Contribution}}
+}_{\text{Total Energy}}
+\]
+where
+\[
+\begin{bmatrix}
+\begin{matrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{n1} & a_{n2} & \cdots & a_{nn} \\
+\end{matrix}
+\end{bmatrix}
+\]
+
+\section{Question 6}
+\begin{tabular}{|c|l|c|c|c|}
+\hline
+\textbf{Roll No.} & \textbf{Name} & \textbf{Department} & \textbf{Semester} & \textbf{CGPA} \\
+\hline
+101 & Amit  & CSE & 2 & 8.45 \\
+\hline
+102 & Neha  & CSE & 2 & 9.12 \\
+\hline
+103 & Rahul & ECE & 4 & 8.76 \\
+\hline
+104 & Priya & ECE & 4 & 9.01 \\
+\hline
+\end{tabular}
+
+\section{Question 7}
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\multicolumn{3}{|c|}{\textbf{Academic Performance}} \\
+\hline
+\textbf{Student} & \textbf{Midterm} & \textbf{Final} \\
+\hline
+A & 78 & 89 \\
+\hline
+B & 85 & 92 \\
+\hline
+C & 91 & 94 \\
+\hline
+\end{tabular}
+\end{document}
+
